@@ -1,0 +1,108 @@
+body{
+    background-color: #B80A0A;
+    color: #FFE100;
+}
+#principal{
+    list-style-type: none;
+    margin-left: 4%;
+    margin-top: 0;
+    padding-top: 0;
+}
+.item{
+    display: inline-block;
+    margin: auto;
+    padding: 2%;
+}
+.links{
+    text-decoration: none;
+    color: #FFE100;
+    font-size: 24px;
+
+}
+#first-image{
+    width: 1100px;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+}
+hr{
+    border: 0;
+  height: 4px;
+  background-image: linear-gradient(to right, transparent, #FFE100, transparent);  
+}
+.title{
+    text-align: center;
+}
+#description{
+    margin: auto;
+    width: 1000px;
+    border: 2px dashed #FFE100;
+    color: #FFE100;
+    text-align:center;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+.menuTotal{
+    font-size: 20px;
+}
+.square{
+    width: 500px;
+    height: 600px;
+    float: right;
+    position: relative;
+
+}
+.parameter{
+    width: 300px;
+}
+.image1{
+    position: absolute;
+    right: 0;
+}
+.image2{
+    position: absolute;
+    top: 225px;
+    right: 100px;
+}
+.image3{
+    position: absolute;
+    bottom: 0;
+    right: 200px;
+}
+.bannerMain{
+    position: relative;
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    
+}
+.banner1, .banner2{
+    float: left;
+    width: 300px;
+    height: 200px;
+    border: 2px solid #FFE100;
+    border-radius: 35px;
+}
+.banner1{
+    margin-left: 8%;
+}
+.banner2{
+    position: absolute;
+    left: 60%;
+}
+.telephone{
+    font-size: 22px;
+    transform: translateY(50%);
+}
+#address{
+    float: right;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 10%;
+    transform: translateY(50%);
+    
+}
